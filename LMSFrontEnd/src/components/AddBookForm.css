@@ -1,0 +1,53 @@
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-image: url('https://images.unsplash.com/photo-1549675584-91f19337af3d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover; /* Ensure the background image covers the entire page */
+  background-position: center; /* Center the background image */
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+
+.add-book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-book-form {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Fallback background color */
+  background-color: rgba(255, 255, 255, 0.7); /* Transparent background color */
+}
+
+.add-book-form label {
+  margin-bottom: 5px;
+}
+
+.add-book-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-book-form button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-book-form button:hover {
+  background-color: #0056b3;
+}
+
+.add-book-form button + button {
+  margin-left: 10px;
+}

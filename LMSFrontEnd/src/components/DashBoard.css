@@ -1,0 +1,204 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .dashboard-button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  .dashboard-container {
+    display: flex;
+    background-image: url("https://media.istockphoto.com/id/1126130554/photo/row-of-old-books-with-colorful-covers-on-pastel-blue-background-education-concept-mock-up-for.jpg?s=2048x2048&w=is&k=20&c=NgKkJFIslgJeEPe9f6ZhxMXwCvq0GQLF6KO-kGzp-Rk=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+ 
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .details-container {
+    margin-bottom: 20px;
+  }
+  
+  .details-container h3 {
+    margin-bottom: 10px;
+  }
+    
+  .main-content {
+    position:relative;
+    padding-left: 250px;
+    padding-top: 100px;
+  }
+  .sidenav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .book-table,
+  .user-table {
+    background-color: rgba(138, 203, 249, 0.3);
+    border: 1px solid #333; /* Add border */
+    border-collapse: collapse; /* Collapse border */
+  }
+
+
+  .book-table th,
+.book-table td,
+.user-table th,
+.user-table td {
+  padding: 8px; /* Add padding */
+  border: 1px solid #333; /* Add border */
+}
+
+.book-table th,
+.user-table th {
+  background-color: #f2f2f2;
+}
+.add-book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-book-form {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.add-book-form label {
+  margin-bottom: 5px;
+}
+
+.add-book-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #1f0b0b;
+  border-radius: 4px;
+}
+
+.add-book-form button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-book-form button:hover {
+  background-color: #0056b3;
+}
+
+.add-book-form button + button {
+  margin-left: 10px;
+}
+.book-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.book-table td {
+  border: 1px solid hsl(0, 18%, 78%);
+  padding: 8px;
+}
+
+.book-table .label {
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.book-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.book-table tr:hover {
+  background-color: #ddd;
+}
+
+.dashboard-heading {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  /* Add your preferred background color */
+  padding: 10px 0; /* Adjust padding as needed */
+  z-index: 999; /* Ensure it appears above other content */
+}
+.search-form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  margin-right: 10px; /* Adjust as needed */
+}
+.blocks-container {
+  position: absolute;
+  top: 0;
+  left: 250px;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px; /* Adjust as needed */
+  
+}
+
+.block {
+  margin-bottom: 20px; /* Adjust as needed */
+}
+.block img {
+  max-width: 200px; /* Adjust the maximum width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
